@@ -10,7 +10,7 @@ spec:
     name: in-cluster
     namespace: default
   source:
-    path: demo-dev/trioapp-dev
+    path: trioapp-dev
     repoURL: https://github.com/codefresh-sandbox/demo-trioapps.git
     targetRevision: main
   syncPolicy:
