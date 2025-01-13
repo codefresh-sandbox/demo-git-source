@@ -1,0 +1,16 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mike-demo-git-source
+  description: |
+    sample git sources for ArgoCD evaluation
+  annotations:
+    spoton.com/domain: domain:default/infrastructure
+    spoton.com/subdomain: domain:default/delivery-platform
+    github.com/project-slug: spotoninc/mike-demo-git-source
+
+spec:
+  type: docs
+  owner: group:default/delivery
+  lifecycle: experimental

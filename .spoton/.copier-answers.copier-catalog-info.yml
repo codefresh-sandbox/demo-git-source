@@ -1,0 +1,12 @@
+_commit: v1.2.5
+_src_path: https://github.com/SpotOnInc/copier-catalog-info
+description: sample git sources for ArgoCD evaluation
+domain: domain:default/infrastructure
+generate_techdocs: false
+lifecycle: experimental
+links: []
+owner: group:default/delivery
+repo_url: SpotOnInc/mike-demo-git-source
+subdomain: domain:default/delivery-platform
+tags: []
+template_type: docs
